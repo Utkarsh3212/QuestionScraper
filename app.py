@@ -103,7 +103,6 @@ def calculate_sorted_order_of_documents(query_terms):
 #query_terms = [term.lower() for term in query_string.strip().split()]
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'your-secret-key'
 # query = input('Enter your query: ')
 # q_terms = [term.lower() for term in query.strip().split()]
 
